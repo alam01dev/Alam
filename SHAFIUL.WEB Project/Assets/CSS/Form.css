@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background-color: rgb(207, 206, 216);
+}
+.slider img{
+    width: 100%;
+}
+ .student-form{
+    margin: 0 auto;
+    width: 800px;
+ }
+
+ .student-form h2{
+   font-size: 25px;
+   color: #ff2d00;
+   text-align: center;
+ }
+
+ form .name{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ form .name .firstname .lastname{
+   width: 48%;
+ }
+
+ form .label{
+    display: block;
+    font-weight: 700;
+    margin-bottom: 10px;
+ }
+
+ .gender label{
+    display: inline-block;
+ }
+
+ .firstname input, .lastname input, .text-area textarea {
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px 0;
+    border-radius: 5px;
+    background: transparent;
+    padding-left: 15px;
+
+ }
+
+ .firstname, .lastname {
+    margin: 25px 0;
+ }
+
+ .text-area textarea{
+    height: 120px;
+ }
+
+ .fname input{
+    margin-right: 10px;
+ }
+
+ .gender b{
+   display: block;
+   margin-bottom: 15px;
+ }
+
+ .text-area{
+    margin-top: 20px;
+ }
+
+ .submit-btn{
+    margin-bottom: 50px;
+ }
+
+ .submit-btn input {
+   margin-top: 25px;
+   background: blue;
+   border-radius: 5px;
+   padding: 10px 35px;
+   color: aliceblue;
+   font-size: 18px;
+   font-weight: 700;
+   border: none;
+   cursor: pointer;
+ }
+    
